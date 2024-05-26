@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Entrega1" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Entrega1" parent="Base.Theme.Entrega1" />
+
+    <style name="styleButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginHorizontal">20dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:backgroundTint">@color/original</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:onClick">openGame</item>
+    </style>
+
+</resources>
+

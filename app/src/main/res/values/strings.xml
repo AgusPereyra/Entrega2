@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Quiz Master</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="salir">Salir</string>
+    <string name="inicio">Inicio</string>
+    <string name="seleccionarCat">SELECCIONAR CATEGORIA</string>
+    <string name="comodin">COMODIN</string>
+    <string name="aceptar">ACEPTAR</string>
+    <string name="reiniciar">REINICIAR</string>
+    <string name="atras">Atrás</string>
+    <string name="categoria">Default</string>
+    <string name="ayudaExplicada">Cómo jugar: Para empezar a jugar se debe elegir una categoría de preguntas. \nLuego, por cada pregunta tendrá 4 opciones, si elige la correcta se marcará en verde, \nen caso contrario se mostrará en rojo y la respuesta correcta en gris. \n\nCOMODIN: es de un solo uso, si lo utiliza saltea la pregunta actual</string>
+    <string name="comodinUsado">usado</string>
+    <string name="comodinNoUsado">no usado</string>
+    <string name="puntaje">Puntaje</string>
+</resources>

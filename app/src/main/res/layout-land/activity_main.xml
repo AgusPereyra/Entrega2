@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/fondo_h">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/textoPregunta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="50dp"
+            android:text="@string/seleccionarCat"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*">
+
+            <TableRow>
+
+                <Button
+                    style="@style/styleButton"
+                    android:tag="ciencia"
+                    android:text="CIENCIA"
+                    />
+
+                <Button
+                    style="@style/styleButton"
+                    android:tag="historia"
+                    android:text="HISTORIA"
+                     />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    style="@style/styleButton"
+                    android:tag="musica"
+                    android:text="MUSICA"
+                    />
+
+                <Button
+                    style="@style/styleButton"
+                    android:tag="geografia"
+                    android:text="GEOGRAFIA"
+                     />
+
+            </TableRow>
+
+            <TableRow>
+                <Button
+                    style="@style/styleButton"
+                    android:tag="medicina"
+                    android:text="MEDICINA"
+                    android:textSize="13sp"
+                    />
+
+                <Button
+                    style="@style/styleButton"
+                    android:tag="idiomas"
+                    android:text="IDIOMAS"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+                <Button
+                    style="@style/styleButton"
+                    android:tag="gastronomia"
+                    android:text="GASTRONOMIA"
+                   />
+                <Button
+                    style="@style/styleButton"
+                    android:tag="filosofia"
+                    android:text="FILOSOFIA"
+                    />
+            </TableRow>
+
+           <TableRow>
+            <Button
+                style="@style/styleButton"
+                android:tag="literatura"
+                android:text="LITERATURA"
+                />
+            <Button
+                style="@style/styleButton"
+                android:tag="arteycultura"
+                android:text="ARTE Y CULTURA"
+                />
+           </TableRow>
+
+           <TableRow>
+            <Button
+                style="@style/styleButton"
+                android:tag="tecnologia"
+                android:text="TECNOLOGIA"
+                />
+            <Button
+                style="@style/styleButton"
+                android:tag="entretenimiento"
+                android:text="ENTRETENIMIENTO"
+                />
+           </TableRow>
+
+          <TableRow>
+            <Button
+                style="@style/styleButton"
+                android:tag="deporte"
+                android:text="DEPORTE"/>
+          </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz Master</string>
+    <string name="ayuda">Help</string>
+    <string name="salir">Exit</string>
+    <string name="inicio">Home</string>
+    <string name="seleccionarCat">SELECT CATEGORY</string>
+    <string name="comodin">JOKER</string>
+    <string name="aceptar">ACCEPT</string>
+    <string name="reiniciar">RESTART</string>
+    <string name="ayudaExplicada">How to play: To start playing you must choose a category of questions. \nThen, for each question you will have 4 options, if you choose the correct one it will be marked in green, \nOtherwise it will be shown in red and the correct answer in grey. \n\nJOKER: it is for single use, if you use it, skip the current question</string>
+    <string name="atras">Back</string>
+    <string name="categoria">Default</string>
+    <string name="comodinUsado">used</string>
+    <string name="comodinNoUsado">not used</string>
+    <string name="puntaje">Score</string>
+</resources>
